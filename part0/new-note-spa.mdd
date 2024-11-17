@@ -1,0 +1,2 @@
+sequenceDiagram
+Client->>Server: POST User input

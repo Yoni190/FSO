@@ -1,0 +1,9 @@
+sequenceDiagram
+Client->>Server: POST User input
+Server-->>Client: /new-notes
+Client->>Server: GET /notes
+Server-->>Client: HTML file
+Client->>Server: GET CSS file
+Server-->>Client: CSS file
+Client->>Server: GET JS file
+Server-->>Client: JS file
